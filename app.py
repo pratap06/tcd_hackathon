@@ -18,7 +18,7 @@ st.title("Personal Carbon Calculator App ⚠️")
 
 # User inputs
 st.subheader("🌍 Your Country")
-country = st.selectbox("Select", ["India"])
+country = st.selectbox("Select", ["Ireland"])
 
 col1, col2 = st.columns(2)
 
@@ -80,5 +80,4 @@ if st.button("Calculate CO2 Emissions"):
     with col4:
         st.subheader("Total Carbon Footprint")
         st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
-        st.warning("In 2021, CO2 emissions per capita for India was 1.9 tons of CO2 per capita. Between 1972 and 2021, CO2 emissions per capita of India grew substantially from 0.39 to 1.9 tons of CO2 per capita rising at an increasing annual rate that reached a maximum of 9.41% in 2021")
 

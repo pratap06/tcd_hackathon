@@ -1,0 +1,13 @@
+prefix=C:/Hackathon_App/tcd_hackathon/hack/Library
+exec_prefix=C:/Hackathon_App/tcd_hackathon/hack/Library
+libdir=C:/Hackathon_App/tcd_hackathon/hack/Library/lib
+sharedlibdir=C:/Hackathon_App/tcd_hackathon/hack/Library/lib
+includedir=C:/Hackathon_App/tcd_hackathon/hack/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
